@@ -1,0 +1,35 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(236, 236, 236);
+}
+
+.grafico{
+    background-color: white;
+}
+
+.title{
+    font-size: 20px;
+    text-anchor:middle;
+}
+
+
+.dot{
+    stroke: black;
+    opacity: 0.7;
+}
+
+.legend{
+    fill: black;
+}
+
+.tooltip{
+    color: #464646;
+    position: absolute;
+    font-size: 12px;
+    background-color:rgb(255, 255, 255);
+    opacity: 0.7;
+    border: 1px solid #3b3b3b ;
+    border-radius: 5px;
+    padding: 10px;
+    line-height: 20px;
+}
